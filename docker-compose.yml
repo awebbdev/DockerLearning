@@ -14,7 +14,7 @@ services:
     networks:
       - webnet
   visualizer:
-    image:dockersamples/visualizer:stable
+    image: dockersamples/visualizer:stable
     ports:
       - "8080:8080"
     volumes:
